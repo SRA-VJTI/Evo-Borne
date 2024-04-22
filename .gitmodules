@@ -1,0 +1,3 @@
+[submodule "Morphing/Morphing/components/esp32-websocket"]
+	path = Morphing/Morphing/components/esp32-websocket
+	url = https://github.com/Molorius/esp32-websocket.git
