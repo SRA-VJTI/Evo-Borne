@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "67412370-e029-4fda-900d-785b948ee1ca")
-	(paper "A3")
+	(paper "User" 421.64 228.6)
 	(lib_symbols
 		(symbol "Connector:B2B-XH-A_LF__SN_"
 			(pin_names
@@ -10783,6 +10783,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 83.82) (xy 204.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d31138-cd3b-4a03-83b7-75f033b04e83")
+	)
+	(wire
+		(pts
 			(xy 294.6908 105.8164) (xy 294.6908 112.1664)
 		)
 		(stroke
@@ -14064,7 +14074,7 @@
 	)
 	(text "Converts 5V Input \nto 3.3V Output"
 		(exclude_from_sim no)
-		(at 214.884 89.5096 0)
+		(at 230.124 88.138 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -14076,7 +14086,7 @@
 	)
 	(text "    AMS1117: \nLinear Regulator"
 		(exclude_from_sim no)
-		(at 210.6676 80.01 0)
+		(at 221.996 80.01 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -14527,7 +14537,7 @@
 		)
 		(uuid "2839ec98-f570-4f13-8c5c-ffeee1a57cb8")
 	)
-	(label "3V3"
+	(label "3V3_P"
 		(at 263.5504 28.0416 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14912,6 +14922,17 @@
 		)
 		(uuid "65d457bc-918c-4178-b765-02de7922de8e")
 	)
+	(label "3V3"
+		(at 200.66 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68d98846-dc34-41cb-aa9e-f7da0421fed3")
+	)
 	(label "B1"
 		(at 74.5744 45.0596 0)
 		(fields_autoplaced yes)
@@ -15164,6 +15185,17 @@
 			(justify left bottom)
 		)
 		(uuid "99a9028a-3a6e-4ab5-92dd-4c4dfb6e2ea9")
+	)
+	(label "3V3_P"
+		(at 212.09 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a21e2f9-fa6b-4791-9364-4bd5ff2077f2")
 	)
 	(label "5"
 		(at 102.6668 82.1436 0)
@@ -15909,7 +15941,7 @@
 			(uuid "4b9ec3a2-b138-4fc8-83b4-8200b59dbc6a")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R24")
 					(unit 1)
@@ -16106,7 +16138,7 @@
 			(uuid "9786f4eb-13ba-4a8c-8b9a-3508cb96154b")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D6")
 					(unit 1)
@@ -16175,7 +16207,7 @@
 			(uuid "c0eff4a4-dd26-4245-8610-602fc559f569")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C19")
 					(unit 1)
@@ -16244,7 +16276,7 @@
 			(uuid "66e88274-5783-4f0b-805d-4e1c6c3c1c60")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D2")
 					(unit 1)
@@ -16316,7 +16348,7 @@
 			(uuid "452af502-d452-426f-9bbb-f612e58ea36e")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR022")
 					(unit 1)
@@ -16393,7 +16425,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR031")
 					(unit 1)
@@ -16460,7 +16492,7 @@
 			(uuid "8f8ceb90-4552-458f-89ad-67437613048e")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR040")
 					(unit 1)
@@ -16537,7 +16569,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR033")
 					(unit 1)
@@ -16607,7 +16639,7 @@
 			(uuid "b402eff5-ee87-43ac-b64a-a79fbc14de2f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R20")
 					(unit 1)
@@ -16679,7 +16711,7 @@
 			(uuid "3591c4ed-5999-41e6-9faf-9a040a0b6878")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR016")
 					(unit 1)
@@ -16756,7 +16788,7 @@
 			(uuid "a85c4433-8899-4de2-87ee-86e238034e11")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J6")
 					(unit 1)
@@ -16881,7 +16913,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "U7")
 					(unit 1)
@@ -16947,7 +16979,7 @@
 			(uuid "fa325da3-89bd-4673-bc58-b957d071895e")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR013")
 					(unit 1)
@@ -17024,7 +17056,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR032")
 					(unit 1)
@@ -17094,7 +17126,7 @@
 			(uuid "87bfe7ab-542e-405d-a023-4ec7abd101d5")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J13")
 					(unit 1)
@@ -17160,7 +17192,7 @@
 			(uuid "8a39c783-c119-43ae-ab7e-eb626904140e")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR07")
 					(unit 1)
@@ -17226,7 +17258,7 @@
 			(uuid "4220be00-4d66-4923-b945-13453636d0aa")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#FLG01")
 					(unit 1)
@@ -17308,7 +17340,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R27")
 					(unit 1)
@@ -17375,7 +17407,7 @@
 			(uuid "3e7b5f56-93cd-4b85-93d6-734ce093158e")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "L2")
 					(unit 1)
@@ -17441,7 +17473,7 @@
 			(uuid "05357428-3f5f-4d4d-bc46-696b9fa73c8d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR014")
 					(unit 1)
@@ -17629,7 +17661,7 @@
 			(uuid "7213dff6-1556-4f97-b141-d3adf45f8489")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J10")
 					(unit 1)
@@ -17711,7 +17743,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C26")
 					(unit 1)
@@ -17780,7 +17812,7 @@
 			(uuid "55995e88-9944-4b9a-8b61-5da9b99a6070")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C18")
 					(unit 1)
@@ -17846,7 +17878,7 @@
 			(uuid "8974e0d6-23f9-4b69-ba9c-d78569c7c7f5")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR023")
 					(unit 1)
@@ -17919,7 +17951,7 @@
 			(uuid "65fc2a90-f4dd-4b4c-9e44-336489236142")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR011")
 					(unit 1)
@@ -17989,7 +18021,7 @@
 			(uuid "c0db8006-77ba-4be5-a2a5-90158bca19d4")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D18")
 					(unit 1)
@@ -18066,7 +18098,7 @@
 			(uuid "5824ef99-dff2-42a2-ad91-c333788ac70d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J7")
 					(unit 1)
@@ -18132,7 +18164,7 @@
 			(uuid "9b339486-6d55-43fd-8f44-6d17f925c759")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR038")
 					(unit 1)
@@ -18209,7 +18241,7 @@
 			(uuid "eef7d77b-5e94-49a5-81f8-ffb07e00cbf6")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "U6")
 					(unit 1)
@@ -18523,7 +18555,7 @@
 			(uuid "cddd8392-bf7b-41f8-b445-309cec1b20fb")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "U3")
 					(unit 1)
@@ -18594,7 +18626,7 @@
 			(uuid "3b7275a2-8d5d-44ef-ba16-c6786cdb211c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J8")
 					(unit 1)
@@ -18661,7 +18693,7 @@
 			(uuid "6d7947cd-14e2-46ba-82ee-ed0dd91dace8")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R1")
 					(unit 1)
@@ -18772,7 +18804,7 @@
 			(uuid "bbb7dee8-f8b8-43f6-8b86-6191c2bea50f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J17")
 					(unit 1)
@@ -18841,7 +18873,7 @@
 			(uuid "4274ec8a-d579-43c5-a1d8-a84c4491b99c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C8")
 					(unit 1)
@@ -18912,7 +18944,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR030")
 					(unit 1)
@@ -18979,7 +19011,7 @@
 			(uuid "b3f6aada-a1e3-4da7-984c-e6971da99a31")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR041")
 					(unit 1)
@@ -19055,7 +19087,7 @@
 			(uuid "1ddd31c8-f5a1-48c2-8161-223729c8d4c7")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R17")
 					(unit 1)
@@ -19127,7 +19159,7 @@
 			(uuid "ac089889-3173-4074-8de8-4a449923176f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR017")
 					(unit 1)
@@ -19202,7 +19234,7 @@
 			(uuid "0745f89f-bd8c-4a65-ba91-b89126690ffe")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C9")
 					(unit 1)
@@ -19275,7 +19307,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C24")
 					(unit 1)
@@ -19345,7 +19377,7 @@
 			(uuid "0d2bc19a-46bd-42d6-b562-c24a2c12ce6b")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D10")
 					(unit 1)
@@ -19417,7 +19449,7 @@
 			(uuid "075020ae-2149-48ed-b9c4-6d49a9699e91")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR034")
 					(unit 1)
@@ -19487,7 +19519,7 @@
 			(uuid "cf5c8b63-3029-4112-b75f-f2ebe463f065")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R22")
 					(unit 1)
@@ -19563,7 +19595,7 @@
 			(uuid "baa00ade-4398-4d51-9c11-2a329ae748fe")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R21")
 					(unit 1)
@@ -19639,7 +19671,7 @@
 			(uuid "f3e165a1-6726-4486-b0ec-43fe1dfaba4c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D16")
 					(unit 1)
@@ -19712,7 +19744,7 @@
 			(uuid "7534243e-738a-43dc-bf34-2586495bbf2c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR037")
 					(unit 1)
@@ -19894,7 +19926,7 @@
 			(uuid "58f664f0-e62f-44b8-97e5-ec0661d7b2f7")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J4")
 					(unit 1)
@@ -19967,7 +19999,7 @@
 			(uuid "3a7269f5-4710-49dc-a461-ece94af0fd92")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW8")
 					(unit 1)
@@ -20040,7 +20072,7 @@
 			(uuid "4f10caea-c1be-464b-b938-973a5db526b7")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "L3")
 					(unit 1)
@@ -20110,7 +20142,7 @@
 			(uuid "af3e6c5c-3ef4-4f85-9597-9c7744dabd5a")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D20")
 					(unit 1)
@@ -20186,7 +20218,7 @@
 			(uuid "95b64b29-7e16-4972-b70f-c252b4170026")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J5")
 					(unit 1)
@@ -20252,7 +20284,7 @@
 			(uuid "61cd2ae3-4d23-448d-8ec3-b1498fc61055")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR05")
 					(unit 1)
@@ -20319,7 +20351,7 @@
 			(uuid "11ec67be-f81d-4085-ba17-7108dec42d5c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J18")
 					(unit 1)
@@ -20406,7 +20438,7 @@
 			(uuid "52e363ef-2f9e-4667-a0bf-41e86133aa4d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J12")
 					(unit 1)
@@ -20509,7 +20541,7 @@
 			(uuid "fb57e444-b78d-402d-924c-3c608acefcd0")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J16")
 					(unit 1)
@@ -20599,7 +20631,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "Y1")
 					(unit 1)
@@ -20669,7 +20701,7 @@
 			(uuid "ef2d8707-c00c-4a4c-8491-efdb5c51b3a7")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D12")
 					(unit 1)
@@ -20741,7 +20773,7 @@
 			(uuid "7167b2f8-291c-4bca-8abe-c7e4a362e72f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#FLG02")
 					(unit 1)
@@ -20811,7 +20843,7 @@
 			(uuid "1fb29bdf-6feb-40d0-8767-b608ea474268")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R11")
 					(unit 1)
@@ -20886,7 +20918,7 @@
 			(uuid "5548bd52-fc03-4662-9c44-a04f5846f6be")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C5")
 					(unit 1)
@@ -20951,7 +20983,7 @@
 			(uuid "db4558b6-373b-4bb5-af5f-fcdd4bd30b7f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR01")
 					(unit 1)
@@ -21041,7 +21073,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C21")
 					(unit 1)
@@ -21108,7 +21140,7 @@
 			(uuid "93020d8c-fcfc-48bc-b14e-80924b31bb40")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "L1")
 					(unit 1)
@@ -21175,7 +21207,7 @@
 			(uuid "35244aa3-0c35-49ed-8c2d-d62fa26a6661")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D1")
 					(unit 1)
@@ -21249,7 +21281,7 @@
 			(uuid "9921b53f-618a-4b7a-b145-4edbcd824c98")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J19")
 					(unit 1)
@@ -21333,7 +21365,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R25")
 					(unit 1)
@@ -21399,7 +21431,7 @@
 			(uuid "24cb9807-851f-401e-a11a-20c2e5d8d039")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#FLG04")
 					(unit 1)
@@ -21462,7 +21494,7 @@
 			)
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "H2")
 					(unit 1)
@@ -21545,7 +21577,7 @@
 			(uuid "29820c00-7fd7-4d56-8651-b53305ff1d1d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "U4")
 					(unit 1)
@@ -21615,7 +21647,7 @@
 			(uuid "65b6dbf0-443b-4c9d-963f-3898c20f808a")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R12")
 					(unit 1)
@@ -21692,7 +21724,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR021")
 					(unit 1)
@@ -21756,7 +21788,7 @@
 			)
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "H4")
 					(unit 1)
@@ -21844,7 +21876,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C23")
 					(unit 1)
@@ -21915,7 +21947,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR028")
 					(unit 1)
@@ -21984,7 +22016,7 @@
 			(uuid "b56d3cac-5dd3-470e-af3f-48037b005011")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C14")
 					(unit 1)
@@ -22051,7 +22083,7 @@
 			(uuid "a4fc2bd7-57ea-4a02-82fb-fa0413918fec")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R2")
 					(unit 1)
@@ -22139,7 +22171,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R26")
 					(unit 1)
@@ -22333,7 +22365,7 @@
 			(uuid "c2151758-c242-419d-b9d0-9c63cce4e4f3")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R6")
 					(unit 1)
@@ -22399,7 +22431,7 @@
 			(uuid "f6005dd2-4c88-42f1-a18d-09b1ba3cb290")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR025")
 					(unit 1)
@@ -22496,7 +22528,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "Q2")
 					(unit 1)
@@ -22678,7 +22710,7 @@
 			(uuid "45719229-6dce-4b42-8b05-a6b044b062f6")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J9")
 					(unit 1)
@@ -22696,7 +22728,7 @@
 		(dnp no)
 		(uuid "818f5ca1-085d-4df2-8c29-308937741018")
 		(property "Reference" "C4"
-			(at 197.4088 85.6547 0)
+			(at 196.088 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22705,7 +22737,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 196.9262 88.646 0)
+			(at 195.58 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22747,7 +22779,7 @@
 			(uuid "0d115592-94ec-47b8-924e-261ee68839c0")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C4")
 					(unit 1)
@@ -22946,7 +22978,7 @@
 			(uuid "46b98060-7616-4147-80fa-c16d44900d7d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW1")
 					(unit 1)
@@ -23016,7 +23048,7 @@
 			(uuid "6a2d2634-b2e3-423c-a961-c86d080a47e1")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D14")
 					(unit 1)
@@ -23088,7 +23120,7 @@
 			(uuid "431f22df-1e4f-4402-89f5-781b2002ca4c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR012")
 					(unit 1)
@@ -23167,7 +23199,7 @@
 			(uuid "3d023a2f-7d94-4be9-bab5-9c990eb73ffe")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW2")
 					(unit 1)
@@ -23242,7 +23274,7 @@
 			(uuid "d1859a21-f563-421d-a097-b2dabfec8275")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C17")
 					(unit 1)
@@ -23309,7 +23341,7 @@
 			(uuid "09fb74c0-33e5-489e-aa6f-0ed919305cba")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "F1")
 					(unit 1)
@@ -23381,7 +23413,7 @@
 			(uuid "da170de0-4407-4dfe-ae87-dff70fb0cab8")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR015")
 					(unit 1)
@@ -23457,7 +23489,7 @@
 			(uuid "76e83662-95b7-4648-b420-12f9ba0326ca")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D11")
 					(unit 1)
@@ -23545,7 +23577,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW6")
 					(unit 1)
@@ -23612,7 +23644,7 @@
 			(uuid "9067fb87-d4f4-452f-8043-7d2da877765a")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D3")
 					(unit 1)
@@ -23684,7 +23716,7 @@
 			(uuid "db8acbfa-a24a-4647-9624-4470c90ae409")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR024")
 					(unit 1)
@@ -23759,7 +23791,7 @@
 			(uuid "86cc22b5-8b30-4fbc-bdbc-3881c047e672")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C12")
 					(unit 1)
@@ -23823,7 +23855,7 @@
 			)
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "H3")
 					(unit 1)
@@ -23898,7 +23930,7 @@
 			(uuid "28bb7d43-1421-4915-a943-6e5c944afe05")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C1")
 					(unit 1)
@@ -23970,7 +24002,7 @@
 			(uuid "82ecf252-53e2-4acc-81a2-430b761bb610")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR035")
 					(unit 1)
@@ -24043,7 +24075,7 @@
 			(uuid "5d6911f0-1d13-4430-b8ff-e0d5a7695568")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW7")
 					(unit 1)
@@ -24119,7 +24151,7 @@
 			(uuid "38def273-6572-4955-b617-c740e0a88577")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D17")
 					(unit 1)
@@ -24192,7 +24224,7 @@
 			(uuid "9eba02ef-3d98-4e70-a550-5df3500ea464")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D8")
 					(unit 1)
@@ -24268,7 +24300,7 @@
 			(uuid "538cb14b-44a1-46e2-b8c9-77195d33ce0a")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "U2")
 					(unit 1)
@@ -24341,7 +24373,7 @@
 			(uuid "bd3b5dc3-d049-4bca-9f13-1870a2bddbdf")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R4")
 					(unit 1)
@@ -24417,7 +24449,7 @@
 			(uuid "a10babb6-e1bf-438f-af4b-a5f4c278e31f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R18")
 					(unit 1)
@@ -24605,7 +24637,7 @@
 			(uuid "10f5e5c0-6254-42d3-8470-0cdaec84a7e4")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J2")
 					(unit 1)
@@ -24671,7 +24703,7 @@
 			(uuid "070a6bc6-0c36-4b15-863a-7f22807f4441")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR03")
 					(unit 1)
@@ -24853,7 +24885,7 @@
 			(uuid "d5f81e2f-4a08-476c-9fe8-e8702d70af76")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J3")
 					(unit 1)
@@ -24935,7 +24967,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R9")
 					(unit 1)
@@ -25005,7 +25037,7 @@
 			(uuid "deaa9c25-1c08-467d-a58a-f136a4deeb41")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R15")
 					(unit 1)
@@ -25077,7 +25109,7 @@
 			(uuid "60d2aefc-52fc-406d-b225-80375a9782fe")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR04")
 					(unit 1)
@@ -25161,7 +25193,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R29")
 					(unit 1)
@@ -25231,7 +25263,7 @@
 			(uuid "f4ae300c-cd99-4b20-97bb-65cdd4bd5683")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D13")
 					(unit 1)
@@ -25327,7 +25359,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "Q1")
 					(unit 1)
@@ -25518,7 +25550,7 @@
 			(uuid "95e2ef8a-af6b-4582-b66d-e05ed5b1e9cb")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D7")
 					(unit 1)
@@ -25597,7 +25629,7 @@
 			(uuid "94891e23-1c3c-4077-821a-29502a145d9b")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW3")
 					(unit 1)
@@ -25730,7 +25762,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J14")
 					(unit 1)
@@ -25812,7 +25844,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW5")
 					(unit 1)
@@ -25894,7 +25926,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R8")
 					(unit 1)
@@ -25961,7 +25993,7 @@
 			(uuid "dc62442f-37f4-4d6f-beb9-ff4a9641455d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "F2")
 					(unit 1)
@@ -26051,7 +26083,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R28")
 					(unit 1)
@@ -26117,7 +26149,7 @@
 			(uuid "650a50f0-42fb-46c7-b6e2-a39ff680a85d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR018")
 					(unit 1)
@@ -26192,7 +26224,7 @@
 			(uuid "91b9443e-e578-4805-909f-8bf3d7851168")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C7")
 					(unit 1)
@@ -26277,7 +26309,7 @@
 			(uuid "4ff06ec6-6267-4689-bc0f-d6eadd30f2e6")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J11")
 					(unit 1)
@@ -26343,7 +26375,7 @@
 			(uuid "6ecf713d-90a7-4812-8ce4-8afe8e51ed49")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR02")
 					(unit 1)
@@ -26415,7 +26447,7 @@
 			(uuid "42fa079c-611d-4afb-9fa3-952275a50b32")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR019")
 					(unit 1)
@@ -26612,7 +26644,7 @@
 			(uuid "3c93739f-0560-4e0c-9f6a-9694562e1b72")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D4")
 					(unit 1)
@@ -26678,7 +26710,7 @@
 			(uuid "41621772-e973-4d17-9838-5fe0ca1c5df7")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR036")
 					(unit 1)
@@ -26747,7 +26779,7 @@
 			(uuid "cf69a3ea-6fa5-4032-bd0e-24823f9bb7a5")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C11")
 					(unit 1)
@@ -26813,7 +26845,7 @@
 			(uuid "44cc4ba6-3798-4a8b-a689-065b82d9355e")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR020")
 					(unit 1)
@@ -26886,7 +26918,7 @@
 			(uuid "b46964cc-d463-4e78-9bb5-a9bec243924f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R3")
 					(unit 1)
@@ -26974,7 +27006,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C22")
 					(unit 1)
@@ -27041,7 +27073,7 @@
 			(uuid "60d1f9ce-c5db-49bc-8c1b-d9e8d3c060b2")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR010")
 					(unit 1)
@@ -27111,7 +27143,7 @@
 			(uuid "137e7828-6c41-432c-9856-5e44abc8186c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R14")
 					(unit 1)
@@ -27187,7 +27219,7 @@
 			(uuid "a8f12514-5e0b-48ca-90ec-f171e82155f2")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D5")
 					(unit 1)
@@ -27385,7 +27417,7 @@
 			(uuid "ac5d0c57-0ad4-473a-9fa0-4ce0647440b4")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R7")
 					(unit 1)
@@ -27580,7 +27612,7 @@
 			(uuid "a34cf07a-c996-4069-8660-19adeb247a29")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R5")
 					(unit 1)
@@ -27649,7 +27681,7 @@
 			(uuid "f00e6ada-a3cd-484c-89c0-8aa2ce7b8417")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C10")
 					(unit 1)
@@ -27830,7 +27862,7 @@
 			(uuid "2f779522-0403-426e-aed9-d9416b6127bc")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J1")
 					(unit 1)
@@ -27914,7 +27946,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C20")
 					(unit 1)
@@ -27984,7 +28016,7 @@
 			(uuid "6c445cef-b47f-427a-80a4-ecc0d9f84665")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R16")
 					(unit 1)
@@ -28059,7 +28091,7 @@
 			(uuid "32d8ec6c-e2ba-4db8-bd92-4deab348f0e7")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C16")
 					(unit 1)
@@ -28125,7 +28157,7 @@
 			(uuid "56b81cd5-176c-4449-bd3d-ea68121805ee")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#FLG05")
 					(unit 1)
@@ -28210,7 +28242,7 @@
 			(uuid "65390ce7-2e43-4f02-b3b0-ccecfd528efa")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "J15")
 					(unit 1)
@@ -28276,7 +28308,7 @@
 			(uuid "9e36ee77-11e1-47d3-8888-1f0e04d0dcdd")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR09")
 					(unit 1)
@@ -28345,7 +28377,7 @@
 			(uuid "6a61fc0d-b7a0-4ba2-bd98-dd75cc04e4e4")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C6")
 					(unit 1)
@@ -28415,7 +28447,7 @@
 			(uuid "d3e37dea-3282-4a4b-a3c4-3ad5a2694929")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C3")
 					(unit 1)
@@ -28424,6 +28456,73 @@
 			(project "sra_dev_board_2023"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 208.28 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e230e9bc-4b46-4a18-b85f-ee0f8c9b2053")
+		(property "Reference" "F3"
+			(at 208.28 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300mA"
+			(at 208.28 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTC Fuse:1A PTC Fuse RXEF050"
+			(at 208.28 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50283e01-9ede-40ab-9de0-4acb2cb5db74")
+		)
+		(pin "2"
+			(uuid "fad134d3-3076-4af3-a4df-35196e46e5d5")
+		)
+		(instances
+			(project "evoborne"
+				(path "/67412370-e029-4fda-900d-785b948ee1ca"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -28505,7 +28604,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R10")
 					(unit 1)
@@ -28575,7 +28674,7 @@
 			(uuid "fc0a1eff-1a1b-4eba-b230-476ed1e9789f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R13")
 					(unit 1)
@@ -28647,7 +28746,7 @@
 			(uuid "efa6e1c5-984e-4c38-b76e-644f777a71df")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR026")
 					(unit 1)
@@ -28875,7 +28974,7 @@
 			(uuid "d6fc73e5-8366-4354-ae3c-291fb7ecd933")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "U1")
 					(unit 1)
@@ -28945,7 +29044,7 @@
 			(uuid "4df466cc-54a4-4eac-80c3-8927d4b2d94d")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D15")
 					(unit 1)
@@ -29020,7 +29119,7 @@
 			(uuid "f5963a9d-d66f-4b82-9932-35059185867b")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C15")
 					(unit 1)
@@ -29083,7 +29182,7 @@
 			)
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "H1")
 					(unit 1)
@@ -29158,7 +29257,7 @@
 			(uuid "6fe1be96-b16a-44d5-a78a-8f47dc994906")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R23")
 					(unit 1)
@@ -29233,7 +29332,7 @@
 			(uuid "ba406e0a-3584-4f75-9849-df7853b0b53c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C13")
 					(unit 1)
@@ -29310,7 +29409,7 @@
 			(uuid "91cba321-c217-4761-ba9d-b867d719bfbc")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "U5")
 					(unit 1)
@@ -29381,7 +29480,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR029")
 					(unit 1)
@@ -29454,7 +29553,7 @@
 					(unit 1)
 				)
 			)
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C25")
 					(unit 1)
@@ -29523,7 +29622,7 @@
 			(uuid "47753035-917f-4e8f-bdf2-5de45b83991f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "C2")
 					(unit 1)
@@ -29608,7 +29707,7 @@
 			(uuid "28762475-87db-495e-823b-7abc39b7052c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "SW4")
 					(unit 1)
@@ -29684,7 +29783,7 @@
 			(uuid "3da87c2b-8b17-4c46-95ff-f79405fa2e06")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "R19")
 					(unit 1)
@@ -29756,7 +29855,7 @@
 			(uuid "15fb0b70-1fba-4b05-8a92-44f3ebe8df74")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR08")
 					(unit 1)
@@ -29826,7 +29925,7 @@
 			(uuid "3bb558c7-d2c4-48da-a669-dac96acfc05c")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D19")
 					(unit 1)
@@ -29898,7 +29997,7 @@
 			(uuid "9b53bf45-46d1-4bb4-b628-0970bef4b2e7")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "#PWR06")
 					(unit 1)
@@ -29968,7 +30067,7 @@
 			(uuid "814a2aa2-fe30-4f94-8671-64727fa7565f")
 		)
 		(instances
-			(project "Evoborne"
+			(project "evoborne"
 				(path "/67412370-e029-4fda-900d-785b948ee1ca"
 					(reference "D9")
 					(unit 1)

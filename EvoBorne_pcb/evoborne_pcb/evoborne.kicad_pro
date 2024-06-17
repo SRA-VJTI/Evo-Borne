@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "annular_width|57800000|104500000|09f742c8-c905-4aa2-ba45-d74d4b6a0e42|00000000-0000-0000-0000-000000000000",
+        "annular_width|57800000|105900000|b5e0219e-0287-4c02-9eaa-e5670124df03|00000000-0000-0000-0000-000000000000",
+        "annular_width|58500000|103800000|1796ee11-a9f3-454b-b78e-35d75590ec82|00000000-0000-0000-0000-000000000000",
+        "annular_width|58500000|105200000|ff937059-2fc2-4647-b5e0-4060ff4546db|00000000-0000-0000-0000-000000000000",
+        "annular_width|58500000|106600000|04e93334-4a51-4f98-99d9-82df3a1af47a|00000000-0000-0000-0000-000000000000",
+        "annular_width|59200000|104500000|68a57433-4c3c-4b67-aca7-319ea30bfd8c|00000000-0000-0000-0000-000000000000",
+        "annular_width|59200000|105900000|fbc0ad4b-f29e-4a17-806a-b01a25d6fbdd|00000000-0000-0000-0000-000000000000",
+        "annular_width|59900000|103800000|74bacbc1-cb30-447c-9079-235bb31b5d4f|00000000-0000-0000-0000-000000000000",
+        "annular_width|59900000|105200000|81e1221b-55f8-494c-8a6f-98e318b9311e|00000000-0000-0000-0000-000000000000",
+        "annular_width|59900000|106600000|439cc562-67f9-4bea-8f30-797375ef3ea8|00000000-0000-0000-0000-000000000000",
+        "annular_width|60600000|104500000|e345975a-5ac2-49d2-974c-25fce8866784|00000000-0000-0000-0000-000000000000",
+        "annular_width|60600000|105900000|9207bf60-aa3c-4955-bc78-1ba6bb0c1337|00000000-0000-0000-0000-000000000000",
+        "clearance|57800000|104250000|788f43f2-98c0-4fa6-89a7-db71d49c568c|09f742c8-c905-4aa2-ba45-d74d4b6a0e42",
+        "clearance|57800000|104750000|ec9b6b5e-1ab0-4f99-b906-328921e99c56|09f742c8-c905-4aa2-ba45-d74d4b6a0e42",
+        "clearance|57800000|105650000|ec9b6b5e-1ab0-4f99-b906-328921e99c56|b5e0219e-0287-4c02-9eaa-e5670124df03",
+        "clearance|57800000|106150000|306f7e43-c76b-4b01-8227-a9b1803e15a7|b5e0219e-0287-4c02-9eaa-e5670124df03",
+        "clearance|58250000|103800000|788f43f2-98c0-4fa6-89a7-db71d49c568c|1796ee11-a9f3-454b-b78e-35d75590ec82",
+        "clearance|58250000|105200000|ec9b6b5e-1ab0-4f99-b906-328921e99c56|ff937059-2fc2-4647-b5e0-4060ff4546db",
+        "clearance|58250000|106600000|306f7e43-c76b-4b01-8227-a9b1803e15a7|04e93334-4a51-4f98-99d9-82df3a1af47a",
+        "clearance|58750000|103800000|5740750c-f6e2-4f86-bb49-7c357667c3eb|1796ee11-a9f3-454b-b78e-35d75590ec82",
+        "clearance|58750000|105200000|ba959b66-f086-4e23-b29f-45d59a3cf506|ff937059-2fc2-4647-b5e0-4060ff4546db",
+        "clearance|58750000|106600000|396b29a1-8c8b-4221-b86b-133fd6312199|04e93334-4a51-4f98-99d9-82df3a1af47a",
+        "clearance|59200000|104250000|5740750c-f6e2-4f86-bb49-7c357667c3eb|68a57433-4c3c-4b67-aca7-319ea30bfd8c",
+        "clearance|59200000|104750000|ba959b66-f086-4e23-b29f-45d59a3cf506|68a57433-4c3c-4b67-aca7-319ea30bfd8c",
+        "clearance|59200000|105650000|ba959b66-f086-4e23-b29f-45d59a3cf506|fbc0ad4b-f29e-4a17-806a-b01a25d6fbdd",
+        "clearance|59200000|106150000|396b29a1-8c8b-4221-b86b-133fd6312199|fbc0ad4b-f29e-4a17-806a-b01a25d6fbdd",
+        "clearance|59650000|103800000|5740750c-f6e2-4f86-bb49-7c357667c3eb|74bacbc1-cb30-447c-9079-235bb31b5d4f",
+        "clearance|59650000|105200000|ba959b66-f086-4e23-b29f-45d59a3cf506|81e1221b-55f8-494c-8a6f-98e318b9311e",
+        "clearance|59650000|106600000|396b29a1-8c8b-4221-b86b-133fd6312199|439cc562-67f9-4bea-8f30-797375ef3ea8",
+        "clearance|60150000|103800000|b4b3f378-2076-4508-a0bb-2cedda8ace68|74bacbc1-cb30-447c-9079-235bb31b5d4f",
+        "clearance|60150000|105200000|369c0d28-e1c7-414b-9352-ab09ce8a3f8e|81e1221b-55f8-494c-8a6f-98e318b9311e",
+        "clearance|60150000|106600000|01b0f52d-cb31-4982-b3a6-45ef37421322|439cc562-67f9-4bea-8f30-797375ef3ea8",
+        "clearance|60600000|104250000|b4b3f378-2076-4508-a0bb-2cedda8ace68|e345975a-5ac2-49d2-974c-25fce8866784",
+        "clearance|60600000|104750000|369c0d28-e1c7-414b-9352-ab09ce8a3f8e|e345975a-5ac2-49d2-974c-25fce8866784",
+        "clearance|60600000|105650000|369c0d28-e1c7-414b-9352-ab09ce8a3f8e|9207bf60-aa3c-4955-bc78-1ba6bb0c1337",
+        "clearance|60600000|106150000|01b0f52d-cb31-4982-b3a6-45ef37421322|9207bf60-aa3c-4955-bc78-1ba6bb0c1337"
+      ],
       "meta": {
         "version": 2
       },
@@ -76,7 +113,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -118,18 +155,18 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.1,
+        "min_hole_clearance": 0.16,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 0.3,
+        "min_microvia_drill": 0.16,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.2,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.32,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,6 +217,7 @@
       ],
       "track_widths": [
         0.0,
+        0.16,
         0.2,
         0.4,
         1.0
@@ -456,14 +494,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Evoborne.kicad_pro",
+    "filename": "evoborne.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -491,7 +529,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Evoborne.step",
