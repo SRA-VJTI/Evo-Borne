@@ -67,13 +67,7 @@ static void mcpwm_servo_control(void *arg)
 	ESP_ERROR_CHECK(enable_motor_driver(&motor1, MOTOR_A_0));
 	ESP_ERROR_CHECK(enable_motor_driver(&motor2, MOTOR_A_1));
 	ESP_ERROR_CHECK(enable_servo());
-#ifdef CONFIG_ENABLE_OLED
-	// Initialising the OLED
-	// ESP_ERROR_CHECK(init_oled());
-	// display_logo(MARIO_LOGO);
-	vTaskDelay(100);
-#endif
-
+	
 	while (1)
 	{
 		if (MORPH_UNLOCK == QUAD_MODE){
