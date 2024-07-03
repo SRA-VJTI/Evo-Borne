@@ -1,0 +1,6 @@
+[submodule "Morphing/components/esp32-websocket"]
+	path = Morphing/components/esp32-websocket
+	url = https://github.com/Molorius/esp32-websocket.git
+[submodule "components/sra-board-component"]
+	path = components/sra-board-component
+	url = https://github.com/SRA-VJTI/sra-board-component.git

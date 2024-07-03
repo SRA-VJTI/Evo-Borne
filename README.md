@@ -1,4 +1,4 @@
-# Morphobot
+# Evoborne
 This repository focuses on building an open-source morphobot.
 Autonomous human-friendly Multi-Terrain Scaling Vehicle
 
