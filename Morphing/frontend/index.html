@@ -1,0 +1,302 @@
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"
+    ></script>
+    <script>
+      var websocket = new WebSocket("ws://" + location.hostname + "/");
+
+      function send_test() {
+        websocket.send("T" + "test");
+      }
+      function speed_change() {
+        websocket.send("S" + document.getElementById("speed_slider").value);
+        document.getElementById("speed_value").innerHTML =
+          document.getElementById("speed_slider").value;
+      }
+      function right_change() {
+        websocket.send("R" + "true");
+      }
+      function left_change() {
+        websocket.send("L" + "true");
+      }
+      function forward_change() {
+        websocket.send("F" + "true");
+      }
+      function backward_change() {
+        websocket.send("B" + "true");
+      }
+        function stop_change() {
+        websocket.send("F"+"false");
+        websocket.send("B"+"false");
+        websocket.send("L"+"false");
+        websocket.send("R"+"false");
+      }
+      //repeat on btn hold
+
+      window.onload = function () {
+        console.log("LOADED");
+        var ws = new WebSocket("ws://" + location.hostname + "/");
+
+        //Configuration variables
+        var updateInterval = 1000; //in ms
+        var numberElements = 500;
+
+        //Globals
+        var updateCount = 0;
+        let btnHoldCounter;
+      };
+    </script>
+
+    <style>
+      @import "susy";
+      @import "compass/reset";
+
+      /* style for speed slider */
+      .slidecontainer {
+        width: 100%; /* Width of the outside container */
+      }
+
+      /* The slider itself */
+      .slider {
+        -webkit-appearance: none; /* Override default CSS styles */
+        appearance: none;
+        width: 100%; /* Full-width */
+        height: 25px; /* Specified height */
+        background: #d3d3d3; /* Grey background */
+        outline: none; /* Remove outline */
+        opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+        -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+        transition: opacity 0.2s;
+      }
+
+      /* Mouse-over effects */
+      .slider:hover {
+        opacity: 1; /* Fully shown on mouse-over */
+      }
+
+      /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        width: 25px; /* Set a specific slider handle width */
+        height: 25px; /* Slider handle height */
+        background: #04aa6d; /* Green background */
+        cursor: pointer; /* Cursor on hover */
+      }
+
+      .slider::-moz-range-thumb {
+        width: 25px; /* Set a specific slider handle width */
+        height: 25px; /* Slider handle height */
+        background: #04aa6d; /* Green background */
+        cursor: pointer; /* Cursor on hover */
+      }
+
+      body {
+        font-family: Oswald, sans-serif;
+        color: #fff;
+        background: #000;
+      }
+
+      img {
+        filter: grayscale(1) invert(1);
+      }
+
+      span.input-group-text {
+        /* background-color: #FFF; */
+        border-radius: 5px 0px 0px 5px;
+        border: 0px solid #ffffff;
+      }
+
+      .form-control {
+        border-radius: 0px 5px 5px 0px;
+        margin: 0;
+        border: 0px solid #ffffff;
+      }
+
+      .container {
+        display: flex;
+        color: #fff;
+      }
+
+      .value-container {
+        margin: 2em 2em 2em 5.3em;
+      }
+
+      .label {
+        flex: 1;
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      .x {
+        flex: 3;
+        text-align: center;
+        background-color: rgba(197, 40, 61, 0.55);
+        margin: 10px;
+        border-radius: 15px;
+      }
+
+      .y {
+        flex: 3;
+        text-align: center;
+        background-color: rgba(103, 148, 54, 0.6);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+      }
+
+      .z {
+        flex: 3;
+        text-align: center;
+        background-color: rgba(35, 87, 137, 0.64);
+        margin: 10px;
+        border-radius: 15px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .stars,
+      .twinkling,
+      .clouds {
+        position: absolute;
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .stars {
+        z-index: -102;
+        background: #000 url("https://image.ibb.co/mjnygo/stars.png") repeat top
+          center;
+      }
+
+      .twinkling {
+        z-index: -101;
+        background: transparent url("https://image.ibb.co/ir1DE8/twinkling.png")
+          repeat top center;
+        animation: move-twink-back 200s linear infinite;
+      }
+
+      .clouds {
+        z-index: -100;
+        background: transparent url("https://image.ibb.co/bT4N7T/clouds.png")
+          repeat top center;
+        animation: move-clouds-back 200s linear infinite;
+      }
+
+      @keyframes move-twink-back {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: -10000px 5000px;
+        }
+      }
+
+      @keyframes move-clouds-back {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 10000px 0;
+        }
+      }
+      @media (max-width: 1200px) {
+        .value-container {
+          margin-top: 2em;
+        }
+        .offset-container {
+          margin-left: 23em;
+        }
+      }
+      @media (min-width: 1200px) {
+        .value-container {
+          margin-top: 2em;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="labelAccel" class="label">
+      <img
+        src="https://drive.google.com/uc?export=view&id=1zkT3u49ixBW_8_TA8xBO0mTogS-rzqpp"
+        width="200"
+        height="120"
+      />
+      <h1>WEBSOCKET TEST</h1>
+    </div>
+    <div class="container-fluid">
+      <!--button with id test_btn-->
+      <div class="row">
+        <!--slider for speed-->
+        <div class="input-group mb-3">
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="-100"
+              max="100"
+              value="0"
+              class="slider"
+              id="speed_slider"
+              onchange="speed_change()"
+            />
+          </div>
+          <!--display value of speed alognside-->
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">
+              <span id="speed_value">0</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="row">
+            <!--button-->
+            <button  onmousedown="forward_change()" onmouseup="stop_change()" type="button" id="forward_btn" ontouchstart="forward_change()" ontouchend="stop_change()" ontouchcancel="stop_change()">
+              Forward
+            </button>
+          </div>
+          <div class="row">
+            <!--button-->
+            <button type="button" id="backward_btn" onmousedown="backward_change()" onmouseup="stop_change()" ontouchstart="backward_change()" ontouchend="stop_change()" ontouchcancel="stop_change()">Back</button>
+          </div>
+        </div>
+        <div class="col">
+          <!--button-->
+          <button type="button" id="left_btn" onmousedown="left_change()" onmouseup="stop_change()" ontouchstart="left_change()" ontouchend="stop_change()" ontouchcancel="stop_change()">Left</button>
+          <!--button-->
+          <button type="button" id="right_btn" onmousedown="right_change()" onmouseup="stop_change()" ontouchstart="right_change()" ontouchend="stop_change()" ontouchcancel="stop_change()">Right</button>
+        </div>
+      </div>
+    </div>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+  </body>
+</html>
