@@ -39,7 +39,6 @@ Run `idf.py -p PORT flash monitor` to build, flash and monitor the project.
 
 (To exit the serial monitor, type ``Ctrl-]``.)
 
-See the [Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for full steps to configure and use ESP-IDF to build projects.
 
 ## Console Output
 
@@ -54,7 +53,3 @@ I (3182) example: Set throttle to 1000, no telemetry
 ```
 
 The BLDC motor will beep when the ESC receives a burst of initialization pulses. And then starts high-speed rotation at the throttle set in the code.
-
-## Troubleshooting
-
-For any technical queries, please open an [issue] (https://github.com/espressif/esp-idf/issues) on GitHub. We will get back to you soon.
