@@ -10,7 +10,7 @@ Autonomous human-friendly Multi-Terrain Scaling Vehicle
 ## Introduction
 EvoBorne is a versatile multi-terrain modular robot designed to adapt to various surface and aerial environments, morphing its structure to meet the demands of its surroundings. It operates as a wheeled robot on land, navigating diverse terrains with speed and agility, and seamlessly transforms into a drone when flight is required. Equipped with advanced mapping techniques and a dynamic morphing capability, EvoBorne can autonomously switch between ground and aerial modes, optimizing performance for complex tasks such as search and rescue, environmental monitoring, and exploration. Its robust, customizable design makes it a powerful tool for overcoming challenging environments.
 
-[EvoBorne chassis](/assets/EvoBorne_land_3d.jpg)
+![EvoBorne chassis](/assets/EvoBorne_land_3d.jpg)
 
 ## Features
 ### Modular & Adaptive Design
@@ -34,7 +34,7 @@ The robot's actuation system is controlled by a custom ESP32-based development b
 EvoBorne uses a SpeedyBee flight controller for robust and precise flight control, ensuring stable and reliable aerial operations. This system provides advanced control algorithms that enhance the robot's agility and accuracy during flight.
 
 
-[morphing](/assets/VID20240421213344.gif)
+![morphing](/assets/VID20240421213344.gif)
 
 
 ## Use Case
